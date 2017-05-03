@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
+<html>
+ <head>
+  <meta charset="utf-8"/>
   <link rel="stylesheet" type="text/css" href="main.css">
-  <title>Led Display</title>
-</head>
-<body>
-  <h1>LED DISPLAY</h1>
+ </head>
+ <body>
+ <h1>Technical Challenge :1</h1>
   <form>
-  <input type="text" id="getString" placeholder="Enter your Alphanumeric String">
-  <input id="button" type="submit">
-</form>
-<h5>ParsedString</h5>
-<div id="outputString">
-
-</div>
-<script type="text/javascript" src="main.js"></script>
-</body>
+  Enter your led string
+    <input type="text" maxlength="100" id="input">
+    <input type="button" name="submit" onclick="getInput()">
+  </form>
+  <canvas id="myCanvas" width="1200px">Your browser does not support the HTML5 canvas tag.</canvas>
+  <div id="output"></div>
+   <script type="text/javascript" src="main.js"></script>
+ </body>
 </html>
